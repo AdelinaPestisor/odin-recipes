@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@500;700&display=swap');
+
+body{
+    background-image:url(images/background-recipe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.links{
+    margin:auto;
+    width: 30%;
+    vertical-align: middle;
+    list-style-image: url(images/cooking.png);
+    margin-top: 100px;
+    
+    margin-bottom: 100px;
+    background-color: rgb(182, 209, 155);
+    padding: 30px;
+    border-radius: 10%;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 150px;
+    color:rgb(20, 92, 20);
+}
+li{
+    font-family:'Courgette', cursive;
+    font-size: 20px;
+}
+a:link {
+    color:rgb(14, 107, 168);
+}
+a:visited{
+    color:rgb(20, 92, 20);
+}
+a:hover{
+    color:rgb(255, 94, 0);
+}
+
+@media only screen and (max-width:768px) {
+
+    body{
+        background-image:url(images/background-recipe1.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+    }
+    .links{
+        margin:auto;
+        width: 80%;
+        vertical-align: middle;
+        /* list-style-position: inside; */
+        list-style-image: url(images/cooking.png);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: rgb(182, 209, 155);
+        padding: 10px;
+        border-radius: 10% ;
+    
+    
+    }
+    h1{
+        font-family: 'Dancing Script', cursive;
+        font-weight: 900;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 100px;
+        color:rgb(14, 107, 168);
+    }
+}
